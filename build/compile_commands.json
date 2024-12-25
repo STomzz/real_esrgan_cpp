@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/root/zst/Realesrgan/esrgan_cpp/build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/usr/local/cuda/include -I/usr/include/x86_64-linux-gnu -I/root/zst/Realesrgan/esrgan_cpp/src -I/root/zst/Realesrgan/esrgan_cpp/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/MyProject_exec.dir/main.cc.o -c /root/zst/Realesrgan/esrgan_cpp/src/main.cc",
+  "file": "/root/zst/Realesrgan/esrgan_cpp/src/main.cc",
+  "output": "src/CMakeFiles/MyProject_exec.dir/main.cc.o"
+},
+{
+  "directory": "/root/zst/Realesrgan/esrgan_cpp/build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/usr/local/cuda/include -I/usr/include/x86_64-linux-gnu -I/root/zst/Realesrgan/esrgan_cpp/src -I/root/zst/Realesrgan/esrgan_cpp/include -isystem /usr/local/include/opencv4 -g -o CMakeFiles/MyProject_exec.dir/utils.cc.o -c /root/zst/Realesrgan/esrgan_cpp/src/utils.cc",
+  "file": "/root/zst/Realesrgan/esrgan_cpp/src/utils.cc",
+  "output": "src/CMakeFiles/MyProject_exec.dir/utils.cc.o"
+}
+]
