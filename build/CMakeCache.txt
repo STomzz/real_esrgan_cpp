@@ -400,6 +400,9 @@ CUDA_nppc_LIBRARY:FILEPATH=/usr/local/cuda-12.2/targets/aarch64-linux/lib/libnpp
 //Path to a library.
 CUDA_nppc_static_LIBRARY:FILEPATH=/usr/local/cuda-12.2/targets/aarch64-linux/lib/libnppc_static.a
 
+//"nppi" library
+CUDA_nppi_LIBRARY:FILEPATH=CUDA_nppi_LIBRARY-NOTFOUND
+
 //Path to a library.
 CUDA_nppial_LIBRARY:FILEPATH=/usr/local/cuda-12.2/targets/aarch64-linux/lib/libnppial.so
 
@@ -807,6 +810,8 @@ CUDA_make2cmake:INTERNAL=/usr/local/share/cmake-3.29/Modules/FindCUDA/make2cmake
 CUDA_nppc_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CUDA_nppc_static_LIBRARY
 CUDA_nppc_static_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CUDA_nppi_LIBRARY
+CUDA_nppi_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CUDA_nppial_LIBRARY
 CUDA_nppial_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CUDA_nppial_static_LIBRARY
