@@ -14,10 +14,10 @@ public:
 
     RealESRGANer(/* args */);
     ~RealESRGANer();
-    int pre_process(cv::Mat& img);
+    int pre_process();
     int process();
     int post_process();
-    int enhance(cv::Mat& img);
+    int enhance();
 };
 
 #endif
