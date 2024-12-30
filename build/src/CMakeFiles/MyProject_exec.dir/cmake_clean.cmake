@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyProject_exec.dir/main.cc.o"
   "CMakeFiles/MyProject_exec.dir/main.cc.o.d"
+  "CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o"
+  "CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o.d"
   "CMakeFiles/MyProject_exec.dir/utils.cc.o"
   "CMakeFiles/MyProject_exec.dir/utils.cc.o.d"
   "MyProject_exec"

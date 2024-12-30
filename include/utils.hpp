@@ -10,10 +10,11 @@ private:
     /* data */
 public:
     cv::Mat img_input;
-    int ROWS,COLS,CHANNELS;
+    int ROWS,COLS,CHANNELS,input_size,output_size;
     std::vector<float>input_data;
-    int input_size;
+    // float *input_data_ptr;
     std::vector<float>output_data;
+    std::vector<float>output_data_img;
 
 
     RealESRGANer(cv::Mat img);

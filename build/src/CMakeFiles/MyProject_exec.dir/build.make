@@ -83,10 +83,24 @@ src/CMakeFiles/MyProject_exec.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyProject_exec.dir/main.cc.s"
 	cd /root/zst/Realesrgan/esrgan_cpp/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/zst/Realesrgan/esrgan_cpp/src/main.cc -o CMakeFiles/MyProject_exec.dir/main.cc.s
 
+src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o: src/CMakeFiles/MyProject_exec.dir/flags.make
+src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o: /root/zst/Realesrgan/esrgan_cpp/src/tensorrt_utilss.cc
+src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o: src/CMakeFiles/MyProject_exec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/zst/Realesrgan/esrgan_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o"
+	cd /root/zst/Realesrgan/esrgan_cpp/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o -MF CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o.d -o CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o -c /root/zst/Realesrgan/esrgan_cpp/src/tensorrt_utilss.cc
+
+src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.i"
+	cd /root/zst/Realesrgan/esrgan_cpp/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/zst/Realesrgan/esrgan_cpp/src/tensorrt_utilss.cc > CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.i
+
+src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.s"
+	cd /root/zst/Realesrgan/esrgan_cpp/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/zst/Realesrgan/esrgan_cpp/src/tensorrt_utilss.cc -o CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.s
+
 src/CMakeFiles/MyProject_exec.dir/utils.cc.o: src/CMakeFiles/MyProject_exec.dir/flags.make
 src/CMakeFiles/MyProject_exec.dir/utils.cc.o: /root/zst/Realesrgan/esrgan_cpp/src/utils.cc
 src/CMakeFiles/MyProject_exec.dir/utils.cc.o: src/CMakeFiles/MyProject_exec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/zst/Realesrgan/esrgan_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/MyProject_exec.dir/utils.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/zst/Realesrgan/esrgan_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/MyProject_exec.dir/utils.cc.o"
 	cd /root/zst/Realesrgan/esrgan_cpp/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/MyProject_exec.dir/utils.cc.o -MF CMakeFiles/MyProject_exec.dir/utils.cc.o.d -o CMakeFiles/MyProject_exec.dir/utils.cc.o -c /root/zst/Realesrgan/esrgan_cpp/src/utils.cc
 
 src/CMakeFiles/MyProject_exec.dir/utils.cc.i: cmake_force
@@ -100,12 +114,14 @@ src/CMakeFiles/MyProject_exec.dir/utils.cc.s: cmake_force
 # Object files for target MyProject_exec
 MyProject_exec_OBJECTS = \
 "CMakeFiles/MyProject_exec.dir/main.cc.o" \
+"CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o" \
 "CMakeFiles/MyProject_exec.dir/utils.cc.o"
 
 # External object files for target MyProject_exec
 MyProject_exec_EXTERNAL_OBJECTS =
 
 src/MyProject_exec: src/CMakeFiles/MyProject_exec.dir/main.cc.o
+src/MyProject_exec: src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o
 src/MyProject_exec: src/CMakeFiles/MyProject_exec.dir/utils.cc.o
 src/MyProject_exec: src/CMakeFiles/MyProject_exec.dir/build.make
 src/MyProject_exec: /usr/local/lib/libopencv_gapi.so.4.8.0
@@ -174,7 +190,7 @@ src/MyProject_exec: /usr/local/lib/libopencv_cudaarithm.so.4.8.0
 src/MyProject_exec: /usr/local/lib/libopencv_core.so.4.8.0
 src/MyProject_exec: /usr/local/lib/libopencv_cudev.so.4.8.0
 src/MyProject_exec: src/CMakeFiles/MyProject_exec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/zst/Realesrgan/esrgan_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyProject_exec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/zst/Realesrgan/esrgan_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MyProject_exec"
 	cd /root/zst/Realesrgan/esrgan_cpp/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyProject_exec.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

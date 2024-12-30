@@ -154,6 +154,30 @@ main.cc.s:
 	cd /root/zst/Realesrgan/esrgan_cpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyProject_exec.dir/build.make src/CMakeFiles/MyProject_exec.dir/main.cc.s
 .PHONY : main.cc.s
 
+tensorrt_utilss.o: tensorrt_utilss.cc.o
+.PHONY : tensorrt_utilss.o
+
+# target to build an object file
+tensorrt_utilss.cc.o:
+	cd /root/zst/Realesrgan/esrgan_cpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyProject_exec.dir/build.make src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.o
+.PHONY : tensorrt_utilss.cc.o
+
+tensorrt_utilss.i: tensorrt_utilss.cc.i
+.PHONY : tensorrt_utilss.i
+
+# target to preprocess a source file
+tensorrt_utilss.cc.i:
+	cd /root/zst/Realesrgan/esrgan_cpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyProject_exec.dir/build.make src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.i
+.PHONY : tensorrt_utilss.cc.i
+
+tensorrt_utilss.s: tensorrt_utilss.cc.s
+.PHONY : tensorrt_utilss.s
+
+# target to generate assembly for a file
+tensorrt_utilss.cc.s:
+	cd /root/zst/Realesrgan/esrgan_cpp/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyProject_exec.dir/build.make src/CMakeFiles/MyProject_exec.dir/tensorrt_utilss.cc.s
+.PHONY : tensorrt_utilss.cc.s
+
 utils.o: utils.cc.o
 .PHONY : utils.o
 
@@ -190,6 +214,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tensorrt_utilss.o"
+	@echo "... tensorrt_utilss.i"
+	@echo "... tensorrt_utilss.s"
 	@echo "... utils.o"
 	@echo "... utils.i"
 	@echo "... utils.s"
