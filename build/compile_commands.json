@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/root/zst/Realesrgan/esrgan_orin/build/src/app/orin_SR",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/usr/local/cuda/include -I/usr/include/x86_64-linux-gnu -I/root/zst/Realesrgan/esrgan_orin/include/modules/postprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/preprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/runners -I/root/zst/Realesrgan/esrgan_orin/include/modules/sources -I/root/zst/Realesrgan/esrgan_orin/include/utils -isystem /usr/local/include/opencv4 -g -o CMakeFiles/orin_SR.dir/main.cpp.o -c /root/zst/Realesrgan/esrgan_orin/src/app/orin_SR/main.cpp",
+  "file": "/root/zst/Realesrgan/esrgan_orin/src/app/orin_SR/main.cpp",
+  "output": "src/app/orin_SR/CMakeFiles/orin_SR.dir/main.cpp.o"
+},
+{
+  "directory": "/root/zst/Realesrgan/esrgan_orin/build/src/app/orin_SR",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/usr/local/cuda/include -I/usr/include/x86_64-linux-gnu -I/root/zst/Realesrgan/esrgan_orin/include/modules/postprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/preprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/runners -I/root/zst/Realesrgan/esrgan_orin/include/modules/sources -I/root/zst/Realesrgan/esrgan_orin/include/utils -isystem /usr/local/include/opencv4 -g -o CMakeFiles/orin_SR.dir/__/__/utils/tensorrt_utilss.cc.o -c /root/zst/Realesrgan/esrgan_orin/src/utils/tensorrt_utilss.cc",
+  "file": "/root/zst/Realesrgan/esrgan_orin/src/utils/tensorrt_utilss.cc",
+  "output": "src/app/orin_SR/CMakeFiles/orin_SR.dir/__/__/utils/tensorrt_utilss.cc.o"
+},
+{
+  "directory": "/root/zst/Realesrgan/esrgan_orin/build/src/app/orin_SR",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/usr/local/cuda/include -I/usr/include/x86_64-linux-gnu -I/root/zst/Realesrgan/esrgan_orin/include/modules/postprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/preprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/runners -I/root/zst/Realesrgan/esrgan_orin/include/modules/sources -I/root/zst/Realesrgan/esrgan_orin/include/utils -isystem /usr/local/include/opencv4 -g -o CMakeFiles/orin_SR.dir/__/__/modules/sources/img_reader.cpp.o -c /root/zst/Realesrgan/esrgan_orin/src/modules/sources/img_reader.cpp",
+  "file": "/root/zst/Realesrgan/esrgan_orin/src/modules/sources/img_reader.cpp",
+  "output": "src/app/orin_SR/CMakeFiles/orin_SR.dir/__/__/modules/sources/img_reader.cpp.o"
+},
+{
+  "directory": "/root/zst/Realesrgan/esrgan_orin/build/src/app/orin_SR",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/usr/local/cuda/include -I/usr/include/x86_64-linux-gnu -I/root/zst/Realesrgan/esrgan_orin/include/modules/postprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/preprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/runners -I/root/zst/Realesrgan/esrgan_orin/include/modules/sources -I/root/zst/Realesrgan/esrgan_orin/include/utils -isystem /usr/local/include/opencv4 -g -o CMakeFiles/orin_SR.dir/__/__/modules/postprocessors/postprocessors.cpp.o -c /root/zst/Realesrgan/esrgan_orin/src/modules/postprocessors/postprocessors.cpp",
+  "file": "/root/zst/Realesrgan/esrgan_orin/src/modules/postprocessors/postprocessors.cpp",
+  "output": "src/app/orin_SR/CMakeFiles/orin_SR.dir/__/__/modules/postprocessors/postprocessors.cpp.o"
+},
+{
+  "directory": "/root/zst/Realesrgan/esrgan_orin/build/src/app/orin_SR",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/usr/local/cuda/include -I/usr/include/x86_64-linux-gnu -I/root/zst/Realesrgan/esrgan_orin/include/modules/postprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/preprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/runners -I/root/zst/Realesrgan/esrgan_orin/include/modules/sources -I/root/zst/Realesrgan/esrgan_orin/include/utils -isystem /usr/local/include/opencv4 -g -o CMakeFiles/orin_SR.dir/__/__/modules/preprocessors/preprocessors.cpp.o -c /root/zst/Realesrgan/esrgan_orin/src/modules/preprocessors/preprocessors.cpp",
+  "file": "/root/zst/Realesrgan/esrgan_orin/src/modules/preprocessors/preprocessors.cpp",
+  "output": "src/app/orin_SR/CMakeFiles/orin_SR.dir/__/__/modules/preprocessors/preprocessors.cpp.o"
+},
+{
+  "directory": "/root/zst/Realesrgan/esrgan_orin/build/src/app/orin_SR",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/usr/local/cuda/include -I/usr/include/x86_64-linux-gnu -I/root/zst/Realesrgan/esrgan_orin/include/modules/postprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/preprocessors -I/root/zst/Realesrgan/esrgan_orin/include/modules/runners -I/root/zst/Realesrgan/esrgan_orin/include/modules/sources -I/root/zst/Realesrgan/esrgan_orin/include/utils -isystem /usr/local/include/opencv4 -g -o CMakeFiles/orin_SR.dir/__/__/modules/runners/trtrunner.cpp.o -c /root/zst/Realesrgan/esrgan_orin/src/modules/runners/trtrunner.cpp",
+  "file": "/root/zst/Realesrgan/esrgan_orin/src/modules/runners/trtrunner.cpp",
+  "output": "src/app/orin_SR/CMakeFiles/orin_SR.dir/__/__/modules/runners/trtrunner.cpp.o"
+}
+]
